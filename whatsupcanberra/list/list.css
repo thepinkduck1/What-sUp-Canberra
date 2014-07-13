@@ -1,0 +1,166 @@
+body{
+	margin-top: 0;
+	margin-left:0;
+	margin-right:0;
+	overflow: hidden;
+	font-family: "Lato", sans-serif;
+}
+
+.header{
+	width: 100%;
+	height: 10%;
+	background-image:url('../images/Landscape_Blur.jpg');
+	background-size: cover;
+	font-size: 30px;
+	font-weight: lighter;
+	color: white;
+	vertical-align: center;
+	line-height: 50px;
+	border-bottom: 2px solid gray;
+	padding-left: 10px;
+}
+
+.header p{
+	margin-left: 35px;
+	padding-left: 5px;
+}
+
+#sidebar{
+	width: 306px;
+	background-color: white;
+	height: 100%;
+	position: absolute;
+	overflow: auto;
+	border-right: 2px solid gray;
+}
+
+#main{
+	background-color: #ffffff;
+	position: fixed;
+	top: 52px;
+	left: 308px;
+	bottom: 0;
+	right: 0;
+	overflow-y: auto;
+	padding: 10px;
+	text-align: justify;
+}
+li {
+	list-style: none;
+	float: left;
+	margin: 0;
+	width: 300px;
+	height: 80px;
+	background-color: #ffffff;
+	border-left: 3px solid #0099cb;
+	padding-left: 3px;
+}
+li:last-child {
+	margin-bottom: 40px;
+}
+ul {
+	padding: 0;	
+	width: 306px;
+	margin: 0;
+	border-bottom: 1px solid black;
+}
+
+
+
+.green {
+	border-left: 3px solid #99cc01;
+}
+
+li:hover {
+	border-left: 10px solid #0099cb;
+	width: 293px;
+}
+
+.green:hover {
+	border-left: 10px solid #99cc01;
+	width: 293px;
+}
+
+.gray {
+	background-color: #dadada;
+}
+
+.initp {
+	font-size: 50px;
+	color: #0099cb;
+	font-weight: lighter;
+	margin-top: 25px;
+}
+
+h1 {
+	color: #0099cb;
+	font-weight: lighter;
+	font-size: 40px;
+}
+h3 {
+	color: #0099cb;
+	font-weight: lighter;
+}
+
+img {
+	margin-left: 100px;
+	border: 3px solid #0099cb;
+	top: 0;
+	
+}
+#loader {
+	border: none;
+	margin-top: 100%;
+	margin-left: 112.5px;
+}	
+
+.header img {
+	float: right;
+	border: none;
+    margin-top: 0;
+    margin-right: 20px;
+    transition-duration: 0.3s;
+}
+
+.header img:hover {
+	-webkit-transform: scale(0.9);
+	-moz-transform:    scale(0.9);
+	-o-transform:      scale(0.9);
+ 	-ms-transform:     scale(0.9);
+ 	transition-duration: 0.3s;
+}
+
+.header img:active {
+	-webkit-transform: scale(0.8);
+	-moz-transform:    scale(0.8);
+	-o-transform:      scale(0.8);
+ 	-ms-transform:     scale(0.8);
+}
+
+.button {
+	background-color:#0099CB;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topright:15px;
+	border-top-right-radius:15px;
+	-webkit-border-bottom-right-radius:15px;
+	-moz-border-radius-bottomright:15px;
+	border-bottom-right-radius:15px;
+	-webkit-border-bottom-left-radius:15px;
+	-moz-border-radius-bottomleft:15px;
+	border-bottom-left-radius:15px;
+	text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:"Lato", Sans-Serif;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+	border: none;
+}

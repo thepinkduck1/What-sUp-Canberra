@@ -1,0 +1,134 @@
+body {
+	font-family: "Lato", Sans-Serif;
+	margin: 0;
+}
+
+
+
+#header {
+	margin-top: -50px;
+	text-align: center;
+	background: url('images/Landscape_Blur.jpg');
+	background-size: cover;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+#header:hover
+{
+	font-family: 'Lato';
+	text-align: center;
+	color: #f2f2f3;
+	transition: 2s;
+}
+
+
+#header h1 {
+	font-weight: lighter;
+	font-size: 75px;
+}
+
+#header p {
+	font-size: 20px;
+}
+
+ul li {
+	list-style: none;
+	width: 32.3%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 30px;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	transition-duration: 0.3s;
+}
+
+
+ul {
+	padding: 0;
+	clear: both;
+	margin: 0;
+	margin-left: 1%;
+	margin-top: 1%;
+	font-weight: lighter;
+}
+
+#wrap1 {
+	margin: 0 auto;
+	margin-top: 0;
+	background-color: #d9d9d9;
+	border-bottom: 2px gray solid;
+	border-top: 2px gray solid;
+	border-style: collapse;
+}
+
+#wrap0 {
+	margin: 0 auto;
+	margin-top: 0;
+	background-color: #FFFFFF;
+	border-top: 2px gray solid;
+	text-align: center;
+	border-style: collapse;
+	padding-bottom: 35px;
+}
+
+#wrap0 p {
+	font-size: 15px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+#wrap0 h2 {
+	font-size: 30px;
+	font-weight: 200;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 200;
+}
+
+ul li:hover {
+ -webkit-transform: scale(1.05);
+ -moz-transform:    scale(1.05);
+ -o-transform:      scale(1.05);
+ -ms-transform:     scale(1.05);
+ transition-duration: 0.3s;
+}
+
+.major{
+	margin: 0 auto;
+	width: 90%;
+	position: relative;
+}
+
+.header img {
+	float: right;
+	border: none;
+    margin-top: 0;
+    margin-right: 20px;
+    transition-duration: 0.3s;
+}
+
+.header img:hover {
+	-webkit-transform: scale(0.9);
+	-moz-transform:    scale(0.9);
+	-o-transform:      scale(0.9);
+ 	-ms-transform:     scale(0.9);
+ 	transition-duration: 0.3s;
+}
+
+.header img:active {
+	-webkit-transform: scale(0.8);
+	-moz-transform:    scale(0.8);
+	-o-transform:      scale(0.8);
+ 	-ms-transform:     scale(0.8);
+}
